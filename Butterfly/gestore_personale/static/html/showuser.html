@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <title>Dettagli utenti | *user* | Butterfly</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style/style.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'image/a6.png') }}"/>
+    </head>
+    <body lang="it">
+        <header>
+            <p>User id: *user*</p>
+        </header>
+        <div class="centered" id="showuser-div">
+            <h1>Visualizzazione dettagli utente</h1>
+            <form id="data">
+                <label for="userid" id="userid-label">Email o ID Telegram:</label>
+                *userids*
+                <br/>
+                <input id="postuserpanelshow" type="button" value="Mostra dettagli utente"/>
+                <input id="back" name="back" type="button" value="Torna al pannello"/>
+                *showuser*
+            </form>
+        </div>
+    </body>
+</html>

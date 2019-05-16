@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <title>Rimozione progetto | *user* | Butterfly</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style/style.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'image/a6.png') }}"/>
+    </head>
+    <body lang="it">
+        <header>
+            <p>User id: *user*</p>
+        </header>
+        <div class="centered" id="removeproject-div">
+            <h1>Rimozione progetto</h1>
+            <form id="data">
+                <label for="projectid" id="projectid-label">Url:</label>
+                *projectids*
+                <br/>
+                <input id="deleteproject" type="button" value="Rimuovi progetto"/>
+                <input id="back" name="back" type="button" value="Torna al pannello"/>
+            </form>
+            *removeproject*
+        </div>
+    </body>
+</html>

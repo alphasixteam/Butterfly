@@ -1,0 +1,7 @@
+argparse
+kafka-python
+Flask
+flask_restful
+requests
+bson
+pymongo

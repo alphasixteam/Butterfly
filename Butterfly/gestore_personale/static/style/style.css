@@ -1,0 +1,401 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    height: 100vh;
+    text-align:center;
+    max-width:1200px;
+}
+
+.centered{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1{
+  text-align:center;
+  font-weight:900;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+
+/* Login */
+
+#login{
+  max-width: 600px;
+  max-height: 260px;
+  width:100%;
+}
+
+#login input[type="submit"],
+#login #userid {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Panel */
+
+#panel{
+  width: 500px;
+  height: 500px;
+}
+
+#admin-panel{
+  width: 500px;
+}
+
+#admin-panel input[type="button"],
+#panel input[type="button"]{
+  width: 100%;
+}
+
+/* Inserimento */
+
+#adduser-div{
+  width: 800px;
+  height: 500px;
+}
+
+#adduser-div #nome,
+#adduser-div #cognome,
+#adduser-div #email,
+#adduser-div #telegram{
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#adduser-div #nome-label,
+#adduser-div #cognome-label,
+#adduser-div #email-label,
+#adduser-div #telegram-label{
+  width: 10%;
+  display: inline-block;
+}
+
+/* Rimozione */
+
+#removeuser-div{
+  width: 800px;
+  height: 270px;
+}
+
+#removeuser-div #userid{
+  margin: 10px;
+  width: 60%;
+}
+
+#removeuser-div #userid-label{
+  width: 800px;
+  height: 270px;
+}
+
+#removeproject-div{
+  width: 800px;
+  height: 270px;
+}
+
+#removeproject-div #projectid{
+  margin: 10px;
+  width: 60%;
+}
+
+#removeproject-div #projectid-label{
+  width: 800px;
+  height: 270px;
+}
+
+/* Visualizza utenti */
+
+#showuser-div{
+  width: 800px;
+  height: 500px;
+}
+
+#showuser-div #userid{
+  margin: 10px;
+  width: 60%;
+}
+
+#showuser-div #userid-label{
+  width: 800px;
+  height: 270px;
+}
+
+#showproject-div{
+  width: 800px;
+  height: 500px;
+}
+
+#showproject-div #projectid{
+  margin: 10px;
+  width: 60%;
+}
+
+#showproject-div #projectid-label{
+  width: 800px;
+  height: 270px;
+}
+
+/* Modifica */
+
+#modifyuser-div{
+  width: 800px;
+  height: 500px;
+}
+
+#modifyuser-div #nome,
+#modifyuser-div #cognome,
+#modifyuser-div #email,
+#modifyuser-div #telegram{
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#modifyuser-div #nome-label,
+#modifyuser-div #cognome-label,
+#modifyuser-div #email-label{
+  width: 10%;
+  display: inline-block;
+}
+
+/* Generali */
+
+#menu > input{
+    display:inline-block;
+}
+
+input{
+    padding: 1.5em;
+    border-radius: 0.1em;
+    width: 40%;
+    border-radius: 1em;
+}
+
+input[type="button"]:hover,  input[type="submit"]:hover {
+  cursor: pointer;
+  color: #2c2e31;
+  background-color: #80bdff;
+  background-image: none;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+input[type="button"], input[type="submit"]{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#removeuser {
+  margin-top: 2rem;
+}
+
+#removeproject {
+  margin-top: 2rem;
+}
+
+.buttonpanel {
+  margin-bottom: 1.5rem;
+  min-width:175px;
+}
+
+select {
+  display: inline-block;
+  width: 90%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  color: #007bff;
+  line-height: 1.5;
+  color: #2c2e31;
+  vertical-align: middle;
+  background: #fff;
+  background-size: 8px 10px;
+  border: 1.5px solid #666869;
+  border-radius: 0.25rem;
+}
+
+select:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(128, 189, 255, 0.5);
+}
+
+/* Preferenze */
+
+#topics, #projects, #availability, #platform{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table{
+    width:100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    min-width: 150px;
+}
+
+input[type="radio"]{
+    width: 30px;
+    height: 20px;
+    border-radius: 100%;
+    padding: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+/* calendario */
+
+.day_checkbox{
+  display: none;
+}
+
+.day_label {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius:100%;
+  line-height: 50px;
+  cursor: pointer;
+  margin:3px;
+}
+
+#day_1:checked ~ label[for="day_1"],
+#day_2:checked ~ label[for="day_2"],
+#day_3:checked ~ label[for="day_3"],
+#day_4:checked ~ label[for="day_4"],
+#day_5:checked ~ label[for="day_5"],
+#day_6:checked ~ label[for="day_6"],
+#day_7:checked ~ label[for="day_7"],
+#day_8:checked ~ label[for="day_8"],
+#day_9:checked ~ label[for="day_9"],
+#day_10:checked ~ label[for="day_10"],
+#day_11:checked ~ label[for="day_11"],
+#day_12:checked ~ label[for="day_12"],
+#day_13:checked ~ label[for="day_13"],
+#day_14:checked ~ label[for="day_14"],
+#day_15:checked ~ label[for="day_15"],
+#day_16:checked ~ label[for="day_16"],
+#day_17:checked ~ label[for="day_17"],
+#day_18:checked ~ label[for="day_18"],
+#day_19:checked ~ label[for="day_19"],
+#day_20:checked ~ label[for="day_20"],
+#day_21:checked ~ label[for="day_21"],
+#day_22:checked ~ label[for="day_22"],
+#day_23:checked ~ label[for="day_23"],
+#day_24:checked ~ label[for="day_24"],
+#day_25:checked ~ label[for="day_25"],
+#day_26:checked ~ label[for="day_26"],
+#day_27:checked ~ label[for="day_27"],
+#day_28:checked ~ label[for="day_28"],
+#day_29:checked ~ label[for="day_29"],
+#day_30:checked ~ label[for="day_30"],
+#day_31:checked ~ label[for="day_31"]{
+  background: #007bff;
+  color: white;
+}
+
+#day_1:hover ~ label[for="day_1"],
+#day_2:hover ~ label[for="day_2"],
+#day_3:hover ~ label[for="day_3"],
+#day_4:hover ~ label[for="day_4"],
+#day_5:hover ~ label[for="day_5"],
+#day_6:hover ~ label[for="day_6"],
+#day_7:hover ~ label[for="day_7"],
+#day_8:hover ~ label[for="day_8"],
+#day_9:hover ~ label[for="day_9"],
+#day_10:hover ~ label[for="day_10"],
+#day_11:hover ~ label[for="day_11"],
+#day_12:hover ~ label[for="day_12"],
+#day_13:hover ~ label[for="day_13"],
+#day_14:hover ~ label[for="day_14"],
+#day_15:hover ~ label[for="day_15"],
+#day_16:hover ~ label[for="day_16"],
+#day_17:hover ~ label[for="day_17"],
+#day_18:hover ~ label[for="day_18"],
+#day_19:hover ~ label[for="day_19"],
+#day_20:hover ~ label[for="day_20"],
+#day_21:hover ~ label[for="day_21"],
+#day_22:hover ~ label[for="day_22"],
+#day_23:hover ~ label[for="day_23"],
+#day_24:hover ~ label[for="day_24"],
+#day_25:hover ~ label[for="day_25"],
+#day_26:hover ~ label[for="day_26"],
+#day_27:hover ~ label[for="day_27"],
+#day_28:hover ~ label[for="day_28"],
+#day_29:hover ~ label[for="day_29"],
+#day_30:hover ~ label[for="day_30"],
+#day_31:hover ~ label[for="day_31"]{
+background: #209bec;
+color: white;
+}
+
+#availability #putpreferenceavailabilitynext,
+#availability #putpreferenceavailabilityprevious,
+#availability #putpreferenceavailability{
+  margin: 10px;
+}
+
+#availability #putpreferenceavailability{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#availability-fieldset,
+#platform-fieldset,
+#project-fieldset,
+#topics-fieldset{
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#projects-select,
+#putpreferenceprojectsadd,
+#putpreferenceprojectsremove{
+  width:300px;
+  margin: 0px 10px 0px 10px;
+}
+
+#platform-fieldset{
+  padding: 10px;
+}
+
+#platform #email,
+#platform #telegram{
+  margin-right: 50px;
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
+#preference-div{
+  width:100%;
+}
+
+#back{
+  margin-bottom: 30px;
+}

@@ -1,0 +1,23 @@
+
+[
+    {
+        "id" : 1,
+        "label" : "bug",
+        "project" : 1
+    },
+    {
+        "id" : 2,
+        "label" : "enhancement",
+        "project" : 3
+    },
+    {
+        "id" : 3,
+        "label" : "bug",
+        "project" : 3
+    },
+    {
+        "id" : 4,
+        "label" : "wontfix",
+        "project" : 2
+    }
+]

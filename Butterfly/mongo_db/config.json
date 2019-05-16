@@ -1,0 +1,7 @@
+{
+    "mongo": {
+        "ip": "localhost",
+        "port": 27017,
+        "database": "butterfly"
+    }
+}

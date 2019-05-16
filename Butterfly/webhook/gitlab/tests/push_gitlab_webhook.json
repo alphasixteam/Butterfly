@@ -1,0 +1,61 @@
+{
+  "object_kind": "push",
+  "event_name": "push",
+  "before": "aaf4e577b3956fc93087dde3f43c3ccdf05e601f",
+  "after": "e1ec96b6eb5e67422935913530a54b0c612acf87",
+  "ref": "refs/heads/master",
+  "checkout_sha": "e1ec96b6eb5e67422935913530a54b0c612acf87",
+  "message": null,
+  "user_id": 3456723,
+  "user_name": "AlphaSix",
+  "user_username": "AlphaSix",
+  "user_email": "",
+  "user_avatar": "https://secure.gravatar.com/avatar/3c18773f37d6c28b54fce4636085466b?s=80&d=identicon",
+  "project_id": 10560918,
+  "project": {
+    "id": 10560918,
+    "name": "WebHookTest",
+    "description": "",
+    "web_url": "https://gitlab.com/AlphaSix/webhooktest",
+    "avatar_url": null,
+    "git_ssh_url": "git@gitlab.com:AlphaSix/webhooktest.git",
+    "git_http_url": "https://gitlab.com/AlphaSix/webhooktest.git",
+    "namespace": "AlphaSix",
+    "visibility_level": 0,
+    "path_with_namespace": "AlphaSix/webhooktest",
+    "default_branch": "master",
+    "ci_config_path": null,
+    "homepage": "https://gitlab.com/AlphaSix/webhooktest",
+    "url": "git@gitlab.com:AlphaSix/webhooktest.git",
+    "ssh_url": "git@gitlab.com:AlphaSix/webhooktest.git",
+    "http_url": "https://gitlab.com/AlphaSix/webhooktest.git"
+  },
+  "commits": [
+    {
+      "id": "e1ec96b6eb5e67422935913530a54b0c612acf87",
+      "message": "New commit fix #5 close #10 resolves #12",
+      "timestamp": "2019-02-19T14:30:31Z",
+      "url": "https://gitlab.com/AlphaSix/webhooktest/commit/e1ec96b6eb5e67422935913530a54b0c612acf87",
+      "author": {
+        "name": "AlphaSix",
+        "email": "alpha.six.unipd@gmail.com"
+      },
+      "added": [],
+      "modified": [
+        "README.md"
+      ],
+      "removed": []
+    }
+  ],
+  "total_commits_count": 1,
+  "push_options": [],
+  "repository": {
+    "name": "WebHookTest",
+    "url": "git@gitlab.com:AlphaSix/webhooktest.git",
+    "description": "",
+    "homepage": "https://gitlab.com/AlphaSix/webhooktest",
+    "git_http_url": "https://gitlab.com/AlphaSix/webhooktest.git",
+    "git_ssh_url": "git@gitlab.com:AlphaSix/webhooktest.git",
+    "visibility_level": 0
+  }
+}

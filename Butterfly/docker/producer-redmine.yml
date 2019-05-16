@@ -1,0 +1,49 @@
+# File: insertuser.html
+# Data creazione: 2019-04-16
+
+# <descrizione>
+
+# Licenza: Apache 2.0
+
+# Copyright 2019 AlphaSix
+
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+
+#     http://www.apache.org/licenses/LICENSE-2.0
+
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Versione: 0.0.1
+# Creatore: Ciprian Voinea
+
+version: '3.3'
+
+services:
+
+  producer_redmine:
+    image: producer_redmine
+    container_name: producer_redmine
+    hostname: producer_redmine
+    restart: always
+    depends_on:
+      - kafka
+    build:
+      context: ../
+      dockerfile: ../producer/redmine/Dockerfile
+    # ports:
+    #   - 5000:5000
+    stdin_open: true
+    tty: true
+    logging:
+      driver: "json-file"
+      options:
+        max-size: 500k
+        max-file: "3"
+    network_mode: host
+

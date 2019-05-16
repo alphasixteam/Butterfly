@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "action": "opened",
+    "issue": {
+      "id": 1,
+      "subject": "Issue #1",
+      "description": "This is a new issue",
+      "created_on": "2019-02-19T15:06:08.108Z",
+      "updated_on": "2019-02-19T15:06:08.108Z",
+      "closed_on": null,
+      "root_id": 1,
+      "parent_id": null,
+      "done_ratio": 0,
+      "start_date": "2019-02-19",
+      "due_date": null,
+      "estimated_hours": null,
+      "is_private": false,
+      "lock_version": 0,
+      "custom_field_values": [],
+      "project": {
+        "id": 1,
+        "identifier": "test-project-1",
+        "name": "Test Project #1",
+        "description": "",
+        "created_on": "2019-02-19T15:05:16.822Z",
+        "homepage": ""
+      },
+      "status": {
+        "id": 1,
+        "name": "New"
+      },
+      "tracker": {
+        "id": 1,
+        "name": "Bug"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Low"
+      },
+      "author": {
+        "id": 1,
+        "login": "alphasix",
+        "mail": "alpha.six.unipd@gmail.com",
+        "firstname": "AlphaSix",
+        "lastname": "AlphaSix",
+        "identity_url": null,
+        "icon_url": "//www.gravatar.com/avatar/cb4f282fed12016bd18a879c1f27ff97?rating=PG&size=50"
+      },
+      "assignee": {
+        "id": 1,
+        "login": "alphasix",
+        "mail": "alpha.six.unipd@gmail.com",
+        "firstname": "AlphaSix",
+        "lastname": "AlphaSix",
+        "identity_url": null,
+        "icon_url": "//www.gravatar.com/avatar/cb4f282fed12016bd18a879c1f27ff97?rating=PG&size=50"
+      },
+      "watchers": []
+    },
+    "url": "http://172.23.0.3:3000/issues/1"
+  }
+}

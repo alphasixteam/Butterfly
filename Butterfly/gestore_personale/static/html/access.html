@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accesso | Butterfly</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style/style.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'image/a6.png') }}"/>
+    </head>
+    <body lang="it">
+        <div id="login" class="centered">
+            <h1>Accesso Butterfly</h1>
+            <form action="/" method="POST">
+                <!-- <label for="userid">Email o ID Telegram:</label> -->
+                <input id="userid" name="userid" value="*userid*" type="text" placeholder="Inserire Email o ID Telegram"/>
+                <br/>
+                <input id="login-btn" class="submit" name="access" type="submit" value="Accedi"/>
+            </form>
+            *access*
+        </div>
+    </body>
+</html>

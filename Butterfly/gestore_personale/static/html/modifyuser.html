@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <title>Modifica utente | *user* | Butterfly</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style/style.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'image/a6.png') }}"/>
+    </head>
+    <body lang="it">
+        <header>
+            <p>User id: *user*</p>
+        </header>
+        <div class="centered" id="modifyuser-div">
+            <h1>Modifica dati utente</h1>
+            <form id="data">
+                <label for="nome" id="nome-label">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Inserire nome" value="*nome*"/>
+                <br/>
+                <label for="cognome" id="cognome-label">Cognome:</label>
+                <input id="cognome" name="cognome" type="text" placeholder="Inserire cognome" value="*cognome*"/>
+                <br/>
+                <label for="email" id="email-label">Email:</label>
+                <input id="email" name="email" type="email" placeholder="Inserire email" value="*email*"/>
+                <br/>
+                <label for="telegram" id="telegram-label">Telegram:</label>
+                <input id="telegram" name="telegram" type="text" placeholder="Inserire Telegram ID" value="*telegram*"/>
+                <br/><input id="putuser" type="button" value="Modifica utente"/>
+                <input id="back" name="back" type="button" value="Torna al pannello"/>
+            </form>
+            *modifyuser*
+        </div>
+    </body>
+</html>

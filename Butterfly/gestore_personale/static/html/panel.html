@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <title>Pannello | *user* | Butterfly</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'style/style.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'image/a6.png') }}"/>
+    </head>
+    <body lang="it">
+        <header>
+            <p>User id: *user*</p>
+        </header>
+        <div class="centered" id="panel">
+            <h1>Pannello di controllo</h1>
+            <form id="data">
+                <input id='putuserpanel' class="buttonpanel" type='button' value='Modifica i tuoi dati'><br/>
+                <input id='putpreferencepanel' class="buttonpanel" type='button' value='Modifica le tue preferenze'><br/>
+                <input id='postlogout' class="buttonpanel" type='button' value='Logout'>
+                *panel*
+            </form>
+        </div>
+        <script src='{{ url_for('static', filename = 'script/script.js') }}'></script>
+    </body>
+</html>

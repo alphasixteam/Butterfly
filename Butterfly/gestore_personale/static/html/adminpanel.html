@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <title>Pannello Admin | *user* | Butterfly</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'style/style.css') }}">
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename = 'image/a6.png') }}"/>
+    </head>
+    <body lang="it">
+        <header>
+            <p>User id: *user*</p>
+        </header>
+        <div class="centered" id="admin-panel">
+            <h1>Pannello di controllo</h1>
+            <form id="data">
+                <input id='postuserpanel' class="buttonpanel" type='button' value='Inserisci nuovo utente'><br/>
+                <input id='deleteuserpanel' class="buttonpanel" type='button' value='Rimuovi un utente'><br/>
+                <input id='postuserpanelshow' class="buttonpanel" type='button' value='Visualizza gli utenti'><br/>
+                <input id='deleteprojectpanel' class="buttonpanel" type='button' value='Rimuovi un progetto'><br/>
+                <input id='postprojectpanelshow' class="buttonpanel" type='button' value='Visualizza i progetti'><br/>
+                <input id='putuserpanel' class="buttonpanel" type='button' value='Modifica i tuoi dati'><br/>
+                <input id='putpreferencepanel' class="buttonpanel" type='button' value='Modifica le tue preferenze'><br/>
+                <input id='postlogout' class="buttonpanel" type='button' value='Logout'>
+                *panel*
+            </form>
+            <script src='{{ url_for('static', filename = 'script/script.js') }}'></script>
+        </div>
+    </body>
+</html>

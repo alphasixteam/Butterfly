@@ -1,0 +1,9 @@
+{
+  "type" : "GL",
+  "project_name" : "prova",
+  "project_id" : "01",
+  "author" : "pippo",
+  "title" : "butterfly",
+  "description": "descrizione",
+  "action" : "azione"
+}

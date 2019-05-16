@@ -1,0 +1,21 @@
+{
+   "users": [
+      {
+         "name": "Admin",
+         "surname": "Admin",
+         "email": "alpha.six.unipd@gmail.com",
+         "telegram": "123456",
+         "admin": true,
+         "preference": "email",
+         "indisponibilita": [],
+         "projects": []
+      }
+    ],
+    "projects": [
+      {
+        "url": "http://localhost/prova",
+        "name": "Prova",
+        "app": "Localhost"
+      }
+    ]
+}

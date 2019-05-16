@@ -1,0 +1,70 @@
+{
+  "payload": {
+    "action": "updated",
+    "issue": {
+      "id": 2,
+      "subject": "Issue #1",
+      "description": "",
+      "created_on": "2019-04-08T10:06:45.004Z",
+      "updated_on": "2019-04-08T10:07:52.558Z",
+      "closed_on": null,
+      "root_id": 2,
+      "parent_id": null,
+      "done_ratio": 0,
+      "start_date": "2019-04-08",
+      "due_date": null,
+      "estimated_hours": null,
+      "is_private": false,
+      "lock_version": 1,
+      "custom_field_values": [],
+      "project": {
+        "id": 1,
+        "identifier": "test-project-1",
+        "name": "Test Project #1",
+        "description": "",
+        "created_on": "2019-04-08T09:58:05.540Z",
+        "homepage": ""
+      },
+      "status": {
+        "id": 1,
+        "name": "New"
+      },
+      "tracker": {
+        "id": 1,
+        "name": "Bug"
+      },
+      "priority": {
+        "id": 2,
+        "name": "Normal"
+      },
+      "author": {
+        "id": 1,
+        "login": "admin",
+        "mail": "admin@example.net",
+        "firstname": "Redmine",
+        "lastname": "Admin",
+        "identity_url": null,
+        "icon_url": "//www.gravatar.com/avatar/cb4f282fed12016bd18a879c1f27ff97?rating=PG&size=50"
+      },
+      "assignee": null,
+      "watchers": []
+    },
+    "journal": {
+      "id": 1,
+      "notes": "This is a Note added to an existing Issue",
+      "created_on": "2019-04-08T10:07:52.566Z",
+      "private_notes": false,
+      "author": {
+        "id": 1,
+        "login": "admin",
+        "mail": "admin@example.net",
+        "firstname": "Redmine",
+        "lastname": "Admin",
+        "identity_url": null,
+        "icon_url": "//www.gravatar.com/avatar/cb4f282fed12016bd18a879c1f27ff97?rating=PG&size=50"
+      },
+      "details": []
+    },
+    "url": "http://192.168.150.216:30000/issues/2"
+  }
+}

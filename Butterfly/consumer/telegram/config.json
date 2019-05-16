@@ -1,0 +1,12 @@
+{
+    "telegram" : {
+        "token_bot": "767404683:AAF6Fo4LP7wDWYmEbIRQ37KTX5GECMoTziA",
+        "receiver": "38883960"
+    },
+    "kafka": {
+        "bootstrap_servers": "localhost:9092",
+        "enable_auto_commit": true,
+        "consumer_timeout_ms": "inf",
+        "auto_offset_reset": "latest"
+    }
+}

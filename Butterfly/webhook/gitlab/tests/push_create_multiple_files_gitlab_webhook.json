@@ -1,0 +1,63 @@
+{
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "81ac7f3aefddd2b3cc1d5a0837d99a2425afa17a",
+    "after": "ff61f279fa818d9e9a6ca78928cb509bc3ae776f",
+    "ref": "refs/heads/master",
+    "checkout_sha": "ff61f279fa818d9e9a6ca78928cb509bc3ae776f",
+    "message": null,
+    "user_id": 1,
+    "user_name": "Administrator",
+    "user_username": "root",
+    "user_email": "",
+    "user_avatar": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=80&d=identicon",
+    "project_id": 1,
+    "project": {
+      "id": 1,
+      "name": "Butterfly Test Project 1",
+      "description": "",
+      "web_url": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab-9888b58bf-6qj5c:root/butterfly-test-project-1.git",
+      "git_http_url": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1.git",
+      "namespace": "root",
+      "visibility_level": 0,
+      "path_with_namespace": "root/butterfly-test-project-1",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1",
+      "url": "git@gitlab-9888b58bf-6qj5c:root/butterfly-test-project-1.git",
+      "ssh_url": "git@gitlab-9888b58bf-6qj5c:root/butterfly-test-project-1.git",
+      "http_url": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1.git"
+    },
+    "commits": [
+      {
+        "id": "ff61f279fa818d9e9a6ca78928cb509bc3ae776f",
+        "message": "Files added\n",
+        "timestamp": "2019-03-28T11:00:47Z",
+        "url": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1/commit/ff61f279fa818d9e9a6ca78928cb509bc3ae776f",
+        "author": {
+          "name": "root",
+          "email": "root@alpha6-rancher-node.imolab.it"
+        },
+        "added": [
+          "file_1.txt",
+          "file_2.txt",
+          "file_3.txt"
+        ],
+        "modified": [],
+        "removed": []
+      }
+    ],
+    "total_commits_count": 1,
+    "push_options": [],
+    "repository": {
+      "name": "Butterfly Test Project 1",
+      "url": "git@gitlab-9888b58bf-6qj5c:root/butterfly-test-project-1.git",
+      "description": "",
+      "homepage": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1",
+      "git_http_url": "http://gitlab-9888b58bf-6qj5c/root/butterfly-test-project-1.git",
+      "git_ssh_url": "git@gitlab-9888b58bf-6qj5c:root/butterfly-test-project-1.git",
+      "visibility_level": 0
+    }
+  }
